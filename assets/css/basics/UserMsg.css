@@ -1,0 +1,32 @@
+.user-msg {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 200px;
+    background-color: honeydew;
+    color: #333;
+    padding: 10px;
+}
+
+.user-msg.error {
+    background-color: lightcoral;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 0 25px rgb(238, 150, 150);
+}
+.user-msg.success {
+    background-color: rgb(81, 153, 81);
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 0 25px rgb(116, 232, 116);
+}
+
+.btn-user-msg {
+    margin-right: 15px;
+    color: white;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    border: none;
+}

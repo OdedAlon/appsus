@@ -1,0 +1,65 @@
+@import "./cmps/KeepAdd.css";
+@import "./cmps/KeepList.css";
+@import "./cmps/KeepPreview.css";
+
+body {
+    background-color: #f5f6f8;
+}
+
+.keep-app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.keep-app h5 {
+    margin: 20px;
+}
+
+.input-search {
+    height: 40px;
+    padding: 5px;
+    padding-left:15px ;
+    border-radius: 35px;
+    border-color: #C297B8;
+    border: none;
+    margin: 5px;
+    background-color: #C297B8;
+    width: 250px;
+    color: white;
+    font-family: a;
+    outline: none;
+}
+
+.input-search::placeholder {
+    color: white;
+    font-family: a;
+}
+
+.keep-notes-contaner {
+    background-color: #ffe6f7;
+    padding: 8px;
+    border-radius: 8px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 100px;
+    width: 100vw;
+}
+
+.keep-notes-contaner h5 {
+font-size: 22px;
+}
+
+@media screen and (min-width: 400px) {
+    .keep-notes-contaner {
+        padding: 40px;
+    }
+}
+
+@media screen and (min-width: 540px) {
+    .keep-notes-contaner {
+        padding-left: 100px;
+    }
+}

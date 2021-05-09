@@ -1,0 +1,158 @@
+.add-note-container {
+    background-color: #E1CBDC;
+    width: 500px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 1px 0px 8px 2px rgb(190, 190, 191, .73);
+    padding: 10px;
+}
+
+.add-note-controller {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-add-note {
+    border: 1px solid #ccc;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 1px 6px;
+    margin: 5px;
+    height: 40px;
+    padding: 5px;
+    padding-left: 15px;
+    border-radius: 35px;
+    border: none;
+    margin: 5px;
+    width: 25vw;
+    font-family: a;
+    outline: none;
+}
+
+.input-add-note::placeholder{
+    color:#C297B8;
+}
+
+.textarea-add-note {
+    background-color: white;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 1px 6px;
+    resize: none;
+    width: 400px;
+    overflow: hidden;
+    min-height: 100px;
+    line-height: 20px;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
+
+.textarea-add-note::placeholder{
+    color:#C297B8;
+}
+
+.nav-add-note>* {
+    margin-left: 20px;
+    width: 50px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-add-note .btn-txt {
+    background-image: url(../../../../../apps/Keep/assets/icon/txt.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+
+.nav-add-note .btn-txt.btn-active {
+    background-image: url(../../../../../apps/Keep/assets/icon/txt2.png);
+}
+
+.nav-add-note .btn-img {
+    background-image: url(../../../../../apps/Keep/assets/icon/img.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+
+.nav-add-note .btn-img.btn-active {
+    background-image: url(../../../../../apps/Keep/assets/icon/img2.png);
+}
+
+.nav-add-note .btn-video {
+    background-image: url(../../../../../apps/Keep/assets/icon/video.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60 px;
+    height: 50px;
+}
+
+.nav-add-note .btn-video.btn-active {
+    background-image: url(../../../../../apps/Keep/assets/icon/video2.png);
+}
+
+.nav-add-note .btn-list {
+    background-image: url(../../../../../apps/Keep/assets/icon/list.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+}
+
+.nav-add-note .btn-list.btn-active {
+    background-image: url(../../../../../apps/Keep/assets/icon/list2.png);
+}
+
+
+.nav-add-note button {
+    background-color: #e2cbdd;
+}
+
+/* .nav-add-note .btn-active {
+    background-color: rgb(180, 178, 178);
+    color: white;
+} */
+
+.keep-save {
+    width: 150px;
+    cursor: pointer;
+    width: 190px;
+    background-color: #C297B8;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+    font-family: b;
+    font-size: 18px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 730px) {
+    .textarea-add-note {
+        width:70vw;
+    }
+    .add-note-container {
+        width: 80vw;
+    }
+    .add-note-container button{
+        width: 50vw;
+    }
+    .nav-add-note>* {
+        margin-left: 12px;
+    }
+    .nav-add-note .btn-txt, .nav-add-note .btn-img, .nav-add-note .btn-list, .nav-add-note .btn-video {
+        width: 40px;
+        height: 40px;
+    }
+    .input-add-note {
+        width: 70vw;
+    }
+}
